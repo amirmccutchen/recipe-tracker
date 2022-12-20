@@ -61,7 +61,7 @@ function RecipeCreate({ createRecipe }) {
                   name="photo"
                   onChange={handleChange}
                   value={formData.photo}
-                  placeholder="URL"
+                  placeholder="Photo URL"
                   required
                 />
               </label>
