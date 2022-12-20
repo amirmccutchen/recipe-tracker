@@ -5,7 +5,7 @@ import RecipeList from "./RecipeList";
 import RecipeData from "./RecipeData";
 
 function App() {
-  //recipe state
+  
   const [recipes, setRecipes] = useState(RecipeData);
 
   const createRecipe = (newRecipe) =>
